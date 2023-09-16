@@ -1,20 +1,25 @@
-# default-icons
+# @any-design/default-icons
 
-Default icon bundle for AnyUI
-
-This project is created by [create-a-typescript-lib](https://github.com/backrunner/create-a-typescript-lib).
+Default icon bundle for AnyUI.
 
 ## Usage
 
-To build this project, you can run this command:
+1. Install the package.
 
 ```bash
-npm run build
+npm i @any-design/default-icons
 ```
 
-Also, you can use `npm run watch` to start a file changes.
+2. Setup default icons with icon helper.
 
-All changes you make will immediately trigger compilation and take effect on the generated script.
+```ts
+import { setupIcons } from '@any-design/anyui';
+import DefaultIcons from '@any-design/default-icons',
+
+setupIcons({
+  icons: DefaultIcons,
+});
+```
 
 ## License
 
