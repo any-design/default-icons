@@ -1,6 +1,6 @@
 {
   "name": "@any-design/default-icons",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Default icon bundle for AnyUI",
   "main": "dist/default-icons.umd.js",
   "module": "dist/default-icons.esm.js",
@@ -20,10 +20,11 @@
   },
   "devDependencies": {
     "@iconify/icons-fluent": "^1.2.34",
-    "@iconify/icons-ph": "^1.2.4",
-    "@iconify/icons-si-glyph": "^1.2.6",
     "@iconify/icons-ic": "^1.2.13",
+    "@iconify/icons-ph": "^1.2.4",
     "@iconify/icons-quill": "^1.2.5",
+    "@iconify/icons-si-glyph": "^1.2.6",
+    "@iconify/types": "^2.0.0",
     "@rollup/plugin-commonjs": "^25.0.4",
     "@rollup/plugin-json": "^6.0.0",
     "@rollup/plugin-node-resolve": "^15.2.1",

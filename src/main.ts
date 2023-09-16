@@ -6,6 +6,8 @@ import WarningFill from '@iconify/icons-ph/warning-fill';
 import Info24Filled from '@iconify/icons-fluent/info-24-filled';
 import CircleError from '@iconify/icons-si-glyph/circle-error';
 
+import type { IconifyIcon } from '@iconify/types';
+
 export default [
   ['quill:loading-spin', LoadingSpin],
   ['si-glyph:checked', Checked],
@@ -14,4 +16,4 @@ export default [
   ['ph:warning-fill', WarningFill],
   ['fluent:info-24-filled', Info24Filled],
   ['si-glyph:circle-error', CircleError],
-];
+] as [string, IconifyIcon][];
