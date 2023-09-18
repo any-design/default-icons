@@ -5,6 +5,8 @@ import RoundCheckCircle from '@iconify/icons-ic/round-check-circle';
 import WarningFill from '@iconify/icons-ph/warning-fill';
 import Info24Filled from '@iconify/icons-fluent/info-24-filled';
 import CircleError from '@iconify/icons-si-glyph/circle-error';
+import AngleLeft from '@iconify/icons-uil/angle-left';
+import AngleRight from '@iconify/icons-uil/angle-right';
 
 import type { IconifyIcon } from '@iconify/types';
 
@@ -16,4 +18,6 @@ export default [
   ['ph:warning-fill', WarningFill],
   ['fluent:info-24-filled', Info24Filled],
   ['si-glyph:circle-error', CircleError],
+  ['uil:angle-left', AngleLeft],
+  ['uil:angle-right', AngleRight],
 ] as [string, IconifyIcon][];

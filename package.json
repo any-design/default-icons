@@ -1,6 +1,6 @@
 {
   "name": "@any-design/default-icons",
-  "version": "0.1.1",
+  "version": "0.1.6",
   "description": "Default icon bundle for AnyUI",
   "main": "dist/default-icons.umd.js",
   "module": "dist/default-icons.esm.js",
@@ -16,7 +16,7 @@
   "author": "BackRunner",
   "license": "MIT",
   "peerDependencies": {
-    "@any-design/anyui": "^0.1.0"
+    "@any-design/anyui": "^0.1.6"
   },
   "devDependencies": {
     "@iconify/icons-fluent": "^1.2.34",
@@ -24,6 +24,7 @@
     "@iconify/icons-ph": "^1.2.4",
     "@iconify/icons-quill": "^1.2.5",
     "@iconify/icons-si-glyph": "^1.2.6",
+    "@iconify/icons-uil": "^1.2.3",
     "@iconify/types": "^2.0.0",
     "@rollup/plugin-commonjs": "^25.0.4",
     "@rollup/plugin-json": "^6.0.0",
